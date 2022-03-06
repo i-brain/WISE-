@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:waffle/const/consts.dart';
-import 'package:waffle/product_details/product_details_page.dart';
+import 'package:waffle/presentation/product_details/product_details_page.dart';
 
 import 'add_page_card.dart';
 

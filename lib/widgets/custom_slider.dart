@@ -1,12 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:provider/src/provider.dart';
-import 'package:waffle/change_index/change_index_cubit.dart';
+import 'package:waffle/bloc/change_index/change_index_cubit.dart';
 import 'package:waffle/const/app_text_styles.dart';
-import 'package:waffle/const/consts.dart';
 import 'package:waffle/model/product_details_model.dart';
 
 class CustomSlider extends StatefulWidget {

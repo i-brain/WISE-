@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:waffle/add/add_page.dart';
+import 'package:waffle/bloc/save_product_cubit/save_product_cubit.dart';
 import 'package:waffle/const/consts.dart';
-import 'package:waffle/home/list_item.dart';
 import 'package:waffle/model/saved_product_model.dart';
-import 'package:waffle/save_product_cubit/save_product_cubit.dart';
+import 'package:waffle/presentation/add_page/add_page.dart';
+
+import 'list_item.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

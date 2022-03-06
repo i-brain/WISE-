@@ -2,21 +2,21 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/src/provider.dart';
-import 'package:waffle/change_index/change_index_cubit.dart';
+import 'package:waffle/bloc/change_index/change_index_cubit.dart';
+import 'package:waffle/bloc/save_product_cubit/save_product_cubit.dart';
+import 'package:waffle/bloc/unsaved_cubit/unsaved_product_cubit.dart';
 import 'package:waffle/const/app_colors.dart';
-import 'package:waffle/const/consts.dart';
 import 'package:waffle/model/product_details_model.dart';
 import 'package:waffle/model/saved_product_model.dart';
 import 'package:waffle/model/unsaved_product_model.dart';
-import 'package:waffle/product_details/details_text_field.dart';
-import 'package:waffle/product_details/estimated_card.dart';
-import 'package:waffle/save_product_cubit/save_product_cubit.dart';
-import 'package:waffle/unsaved_cubit/unsaved_product_cubit.dart';
+
 import 'package:waffle/widgets/custom_slider.dart';
 
+import 'details_text_field.dart';
+import 'estimated_card.dart';
+
 class ProductDetailsPage extends StatefulWidget {
-  ProductDetailsPage({
+  const ProductDetailsPage({
     Key? key,
     required this.productDetails,
   }) : super(key: key);

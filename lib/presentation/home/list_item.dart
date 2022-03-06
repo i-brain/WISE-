@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/src/provider.dart';
+import 'package:waffle/bloc/save_product_cubit/save_product_cubit.dart';
 import 'package:waffle/const/consts.dart';
 import 'package:waffle/model/saved_product_model.dart';
-import 'package:waffle/save_product_cubit/save_product_cubit.dart';
 
 class ListItem extends StatefulWidget {
   const ListItem({Key? key, required this.savedProduct}) : super(key: key);
